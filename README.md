@@ -16,8 +16,11 @@ Open file using $ cd ~HOME/catkin_ws/src/AR_week4_test/scripts
 Run the following in that terminal window:
 
 $ chmod +x points_generator.py
+
 $ chmod +x cubic_traj_planner.py
+
 $ chmod +x compute_cubic_coeffs.py
+
 $ chmod +x plot_cubic_traj.py
 
 In new terminal:
@@ -31,6 +34,7 @@ ROSLAUNCH APPROACH
 Open a terminal window and type:
 
 $ cd ~HOME/catkin_ws/src/AR_week4_test
+
 $ roslaunch AR_week4_test cubic_traj_gen.launch
 
 
@@ -41,8 +45,11 @@ To launch manually, open a new terminal window and type $ roscore
 In new terminals, type:
 
 $ rosrun AR_week4_test points_generator.py
+
 $ rosrun AR_week4_test cubic_traj_planner.py
+
 $ rosrun AR_week4_test compute_cubic_coeffs.py
+
 $ rosrun AR_week4_test plot_cubic_traj.py
 
 
